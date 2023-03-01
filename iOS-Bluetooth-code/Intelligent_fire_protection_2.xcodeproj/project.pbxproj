@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2255072679B6BD004F9406 /* QRCodeScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2255062679B6BD004F9406 /* QRCodeScanningViewController.m */; };
+		4C2255132679B789004F9406 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C22550B2679B70E004F9406 /* AVFoundation.framework */; };
+		4C225523267B0709004F9406 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C225522267B0709004F9406 /* MainViewController.m */; };
+		4C225535267C3EC1004F9406 /* MQTT.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C225534267C3EC0004F9406 /* MQTT.m */; };
+		4C78218026B41E88000A6A2E /* DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78217F26B41E88000A6A2E /* DrawLine.m */; };
+		4C78219326B41F7B000A6A2E /* DBRoomRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78218F26B41F7A000A6A2E /* DBRoomRuler.m */; };
+		4C78219426B41F7B000A6A2E /* DBRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78219026B41F7B000A6A2E /* DBRoom.m */; };
+		4CBE0AC1266A1DD500C17F4E /* DBdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE0AC0266A1DD500C17F4E /* DBdata.m */; };
+		4CCC3596266766BC001052E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC3595266766BC001052E4 /* AppDelegate.m */; };
+		4CCC3599266766BC001052E4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC3598266766BC001052E4 /* SceneDelegate.m */; };
+		4CCC359C266766BC001052E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC359B266766BC001052E4 /* ViewController.m */; };
+		4CCC359F266766BC001052E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC359D266766BC001052E4 /* Main.storyboard */; };
+		4CCC35A1266766BF001052E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC35A0266766BF001052E4 /* Assets.xcassets */; };
+		4CCC35A4266766BF001052E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC35A2266766BF001052E4 /* LaunchScreen.storyboard */; };
+		4CCC35A7266766BF001052E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC35A6266766BF001052E4 /* main.m */; };
+		4CCC35B1266766C0001052E4 /* Intelligent_fire_protection_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC35B0266766C0001052E4 /* Intelligent_fire_protection_2Tests.m */; };
+		4CCC35BC266766C0001052E4 /* Intelligent_fire_protection_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC35BB266766C0001052E4 /* Intelligent_fire_protection_2UITests.m */; };
+		4CCC35D22667685D001052E4 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC35D12667685D001052E4 /* MyNavigationController.m */; };
+		4CCC35D826676883001052E4 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC35D726676883001052E4 /* LocationViewController.m */; };
+		4CCC35E42668BA1A001052E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCC35E32668BA1A001052E4 /* CoreLocation.framework */; };
+		E0941E394BEFA93B98900195 /* libPods-Intelligent_fire_protection_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B00A60101047EE8401AD11 /* libPods-Intelligent_fire_protection_2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCC35AD266766C0001052E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCC3589266766BC001052E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCC3590266766BC001052E4;
+			remoteInfo = Intelligent_fire_protection_2;
+		};
+		4CCC35B8266766C0001052E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCC3589266766BC001052E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCC3590266766BC001052E4;
+			remoteInfo = Intelligent_fire_protection_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31B00A60101047EE8401AD11 /* libPods-Intelligent_fire_protection_2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Intelligent_fire_protection_2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2255052679B6BD004F9406 /* QRCodeScanningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeScanningViewController.h; sourceTree = "<group>"; };
+		4C2255062679B6BD004F9406 /* QRCodeScanningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanningViewController.m; sourceTree = "<group>"; };
+		4C22550B2679B70E004F9406 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C225521267B0709004F9406 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4C225522267B0709004F9406 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4C225533267C3EC0004F9406 /* MQTT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTT.h; sourceTree = "<group>"; };
+		4C225534267C3EC0004F9406 /* MQTT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTT.m; sourceTree = "<group>"; };
+		4C78217E26B41E88000A6A2E /* DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLine.h; sourceTree = "<group>"; };
+		4C78217F26B41E88000A6A2E /* DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLine.m; sourceTree = "<group>"; };
+		4C78218F26B41F7A000A6A2E /* DBRoomRuler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRoomRuler.m; sourceTree = "<group>"; };
+		4C78219026B41F7B000A6A2E /* DBRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRoom.m; sourceTree = "<group>"; };
+		4C78219126B41F7B000A6A2E /* DBRoomRuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBRoomRuler.h; sourceTree = "<group>"; };
+		4C78219226B41F7B000A6A2E /* DBRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBRoom.h; sourceTree = "<group>"; };
+		4CBE0ABF266A1DD500C17F4E /* DBdata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBdata.h; sourceTree = "<group>"; };
+		4CBE0AC0266A1DD500C17F4E /* DBdata.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBdata.m; sourceTree = "<group>"; };
+		4CCC3591266766BC001052E4 /* Intelligent_fire_protection_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intelligent_fire_protection_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCC3594266766BC001052E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CCC3595266766BC001052E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CCC3597266766BC001052E4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4CCC3598266766BC001052E4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4CCC359A266766BC001052E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CCC359B266766BC001052E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CCC359E266766BC001052E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CCC35A0266766BF001052E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCC35A3266766BF001052E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CCC35A5266766BF001052E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCC35A6266766BF001052E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CCC35AC266766C0001052E4 /* Intelligent_fire_protection_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Intelligent_fire_protection_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCC35B0266766C0001052E4 /* Intelligent_fire_protection_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Intelligent_fire_protection_2Tests.m; sourceTree = "<group>"; };
+		4CCC35B2266766C0001052E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCC35B7266766C0001052E4 /* Intelligent_fire_protection_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Intelligent_fire_protection_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCC35BB266766C0001052E4 /* Intelligent_fire_protection_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Intelligent_fire_protection_2UITests.m; sourceTree = "<group>"; };
+		4CCC35BD266766C0001052E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCC35D02667685D001052E4 /* MyNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		4CCC35D12667685D001052E4 /* MyNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		4CCC35D626676883001052E4 /* LocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		4CCC35D726676883001052E4 /* LocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		4CCC35E32668BA1A001052E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4FB57D812DEA8115A9C90870 /* Pods-Intelligent_fire_protection_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intelligent_fire_protection_2.release.xcconfig"; path = "Target Support Files/Pods-Intelligent_fire_protection_2/Pods-Intelligent_fire_protection_2.release.xcconfig"; sourceTree = "<group>"; };
+		E37CFA754107EAFB7D74D10D /* Pods-Intelligent_fire_protection_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intelligent_fire_protection_2.debug.xcconfig"; path = "Target Support Files/Pods-Intelligent_fire_protection_2/Pods-Intelligent_fire_protection_2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCC358E266766BC001052E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCC35E42668BA1A001052E4 /* CoreLocation.framework in Frameworks */,
+				E0941E394BEFA93B98900195 /* libPods-Intelligent_fire_protection_2.a in Frameworks */,
+				4C2255132679B789004F9406 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCC35A9266766C0001052E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCC35B4266766C0001052E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCC3588266766BC001052E4 = {
+			isa = PBXGroup;
+			children = (
+				4CCC3593266766BC001052E4 /* Intelligent_fire_protection_2 */,
+				4CCC35AF266766C0001052E4 /* Intelligent_fire_protection_2Tests */,
+				4CCC35BA266766C0001052E4 /* Intelligent_fire_protection_2UITests */,
+				4CCC3592266766BC001052E4 /* Products */,
+				4CCC35E22668BA19001052E4 /* Frameworks */,
+				6FD9D31B4C245A7F653B914B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCC3592266766BC001052E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC3591266766BC001052E4 /* Intelligent_fire_protection_2.app */,
+				4CCC35AC266766C0001052E4 /* Intelligent_fire_protection_2Tests.xctest */,
+				4CCC35B7266766C0001052E4 /* Intelligent_fire_protection_2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCC3593266766BC001052E4 /* Intelligent_fire_protection_2 */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC35CC2667678F001052E4 /* supports */,
+				4CCC3594266766BC001052E4 /* AppDelegate.h */,
+				4CCC3595266766BC001052E4 /* AppDelegate.m */,
+				4CCC3597266766BC001052E4 /* SceneDelegate.h */,
+				4CCC3598266766BC001052E4 /* SceneDelegate.m */,
+				4CCC359A266766BC001052E4 /* ViewController.h */,
+				4CCC359B266766BC001052E4 /* ViewController.m */,
+				4CCC359D266766BC001052E4 /* Main.storyboard */,
+				4CCC35A0266766BF001052E4 /* Assets.xcassets */,
+				4CCC35A2266766BF001052E4 /* LaunchScreen.storyboard */,
+				4CCC35A5266766BF001052E4 /* Info.plist */,
+				4CCC35D02667685D001052E4 /* MyNavigationController.h */,
+				4CCC35D12667685D001052E4 /* MyNavigationController.m */,
+				4CBE0ABF266A1DD500C17F4E /* DBdata.h */,
+				4CBE0AC0266A1DD500C17F4E /* DBdata.m */,
+				4C225533267C3EC0004F9406 /* MQTT.h */,
+				4C78219226B41F7B000A6A2E /* DBRoom.h */,
+				4C78219026B41F7B000A6A2E /* DBRoom.m */,
+				4C78219126B41F7B000A6A2E /* DBRoomRuler.h */,
+				4C78218F26B41F7A000A6A2E /* DBRoomRuler.m */,
+				4C225534267C3EC0004F9406 /* MQTT.m */,
+				4C78217E26B41E88000A6A2E /* DrawLine.h */,
+				4C78217F26B41E88000A6A2E /* DrawLine.m */,
+				4CCC35D626676883001052E4 /* LocationViewController.h */,
+				4CCC35D726676883001052E4 /* LocationViewController.m */,
+				4C2255052679B6BD004F9406 /* QRCodeScanningViewController.h */,
+				4C2255062679B6BD004F9406 /* QRCodeScanningViewController.m */,
+				4C225521267B0709004F9406 /* MainViewController.h */,
+				4C225522267B0709004F9406 /* MainViewController.m */,
+			);
+			path = Intelligent_fire_protection_2;
+			sourceTree = "<group>";
+		};
+		4CCC35AF266766C0001052E4 /* Intelligent_fire_protection_2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC35B0266766C0001052E4 /* Intelligent_fire_protection_2Tests.m */,
+				4CCC35B2266766C0001052E4 /* Info.plist */,
+			);
+			path = Intelligent_fire_protection_2Tests;
+			sourceTree = "<group>";
+		};
+		4CCC35BA266766C0001052E4 /* Intelligent_fire_protection_2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC35BB266766C0001052E4 /* Intelligent_fire_protection_2UITests.m */,
+				4CCC35BD266766C0001052E4 /* Info.plist */,
+			);
+			path = Intelligent_fire_protection_2UITests;
+			sourceTree = "<group>";
+		};
+		4CCC35CC2667678F001052E4 /* supports */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC35A6266766BF001052E4 /* main.m */,
+			);
+			path = supports;
+			sourceTree = "<group>";
+		};
+		4CCC35E22668BA19001052E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C22550B2679B70E004F9406 /* AVFoundation.framework */,
+				4CCC35E32668BA1A001052E4 /* CoreLocation.framework */,
+				31B00A60101047EE8401AD11 /* libPods-Intelligent_fire_protection_2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FD9D31B4C245A7F653B914B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E37CFA754107EAFB7D74D10D /* Pods-Intelligent_fire_protection_2.debug.xcconfig */,
+				4FB57D812DEA8115A9C90870 /* Pods-Intelligent_fire_protection_2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCC3590266766BC001052E4 /* Intelligent_fire_protection_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCC35C0266766C0001052E4 /* Build configuration list for PBXNativeTarget "Intelligent_fire_protection_2" */;
+			buildPhases = (
+				E0E6E8BCB40ADA3EE62B8803 /* [CP] Check Pods Manifest.lock */,
+				4CCC358D266766BC001052E4 /* Sources */,
+				4CCC358E266766BC001052E4 /* Frameworks */,
+				4CCC358F266766BC001052E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Intelligent_fire_protection_2;
+			productName = Intelligent_fire_protection_2;
+			productReference = 4CCC3591266766BC001052E4 /* Intelligent_fire_protection_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCC35AB266766C0001052E4 /* Intelligent_fire_protection_2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCC35C3266766C0001052E4 /* Build configuration list for PBXNativeTarget "Intelligent_fire_protection_2Tests" */;
+			buildPhases = (
+				4CCC35A8266766C0001052E4 /* Sources */,
+				4CCC35A9266766C0001052E4 /* Frameworks */,
+				4CCC35AA266766C0001052E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCC35AE266766C0001052E4 /* PBXTargetDependency */,
+			);
+			name = Intelligent_fire_protection_2Tests;
+			productName = Intelligent_fire_protection_2Tests;
+			productReference = 4CCC35AC266766C0001052E4 /* Intelligent_fire_protection_2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CCC35B6266766C0001052E4 /* Intelligent_fire_protection_2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCC35C6266766C0001052E4 /* Build configuration list for PBXNativeTarget "Intelligent_fire_protection_2UITests" */;
+			buildPhases = (
+				4CCC35B3266766C0001052E4 /* Sources */,
+				4CCC35B4266766C0001052E4 /* Frameworks */,
+				4CCC35B5266766C0001052E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCC35B9266766C0001052E4 /* PBXTargetDependency */,
+			);
+			name = Intelligent_fire_protection_2UITests;
+			productName = Intelligent_fire_protection_2UITests;
+			productReference = 4CCC35B7266766C0001052E4 /* Intelligent_fire_protection_2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCC3589266766BC001052E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4CCC3590266766BC001052E4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4CCC35AB266766C0001052E4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4CCC3590266766BC001052E4;
+					};
+					4CCC35B6266766C0001052E4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4CCC3590266766BC001052E4;
+					};
+				};
+			};
+			buildConfigurationList = 4CCC358C266766BC001052E4 /* Build configuration list for PBXProject "Intelligent_fire_protection_2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCC3588266766BC001052E4;
+			productRefGroup = 4CCC3592266766BC001052E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCC3590266766BC001052E4 /* Intelligent_fire_protection_2 */,
+				4CCC35AB266766C0001052E4 /* Intelligent_fire_protection_2Tests */,
+				4CCC35B6266766C0001052E4 /* Intelligent_fire_protection_2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCC358F266766BC001052E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCC35A4266766BF001052E4 /* LaunchScreen.storyboard in Resources */,
+				4CCC35A1266766BF001052E4 /* Assets.xcassets in Resources */,
+				4CCC359F266766BC001052E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCC35AA266766C0001052E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCC35B5266766C0001052E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0E6E8BCB40ADA3EE62B8803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Intelligent_fire_protection_2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCC358D266766BC001052E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCC359C266766BC001052E4 /* ViewController.m in Sources */,
+				4C225535267C3EC1004F9406 /* MQTT.m in Sources */,
+				4C78218026B41E88000A6A2E /* DrawLine.m in Sources */,
+				4CBE0AC1266A1DD500C17F4E /* DBdata.m in Sources */,
+				4C2255072679B6BD004F9406 /* QRCodeScanningViewController.m in Sources */,
+				4C78219326B41F7B000A6A2E /* DBRoomRuler.m in Sources */,
+				4C225523267B0709004F9406 /* MainViewController.m in Sources */,
+				4CCC35D826676883001052E4 /* LocationViewController.m in Sources */,
+				4C78219426B41F7B000A6A2E /* DBRoom.m in Sources */,
+				4CCC3596266766BC001052E4 /* AppDelegate.m in Sources */,
+				4CCC35A7266766BF001052E4 /* main.m in Sources */,
+				4CCC3599266766BC001052E4 /* SceneDelegate.m in Sources */,
+				4CCC35D22667685D001052E4 /* MyNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCC35A8266766C0001052E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCC35B1266766C0001052E4 /* Intelligent_fire_protection_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCC35B3266766C0001052E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCC35BC266766C0001052E4 /* Intelligent_fire_protection_2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCC35AE266766C0001052E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCC3590266766BC001052E4 /* Intelligent_fire_protection_2 */;
+			targetProxy = 4CCC35AD266766C0001052E4 /* PBXContainerItemProxy */;
+		};
+		4CCC35B9266766C0001052E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCC3590266766BC001052E4 /* Intelligent_fire_protection_2 */;
+			targetProxy = 4CCC35B8266766C0001052E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CCC359D266766BC001052E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCC359E266766BC001052E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CCC35A2266766BF001052E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCC35A3266766BF001052E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CCC35BE266766C0001052E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CCC35BF266766C0001052E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCC35C1266766C0001052E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37CFA754107EAFB7D74D10D /* Pods-Intelligent_fire_protection_2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G69WKMC5FC;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Intelligent_fire_protection_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Intelligent-fire-protection-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		4CCC35C2266766C0001052E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB57D812DEA8115A9C90870 /* Pods-Intelligent_fire_protection_2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G69WKMC5FC;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Intelligent_fire_protection_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Intelligent-fire-protection-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		4CCC35C4266766C0001052E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G69WKMC5FC;
+				INFOPLIST_FILE = Intelligent_fire_protection_2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Intelligent-fire-protection-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intelligent_fire_protection_2.app/Intelligent_fire_protection_2";
+			};
+			name = Debug;
+		};
+		4CCC35C5266766C0001052E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G69WKMC5FC;
+				INFOPLIST_FILE = Intelligent_fire_protection_2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Intelligent-fire-protection-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intelligent_fire_protection_2.app/Intelligent_fire_protection_2";
+			};
+			name = Release;
+		};
+		4CCC35C7266766C0001052E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G69WKMC5FC;
+				INFOPLIST_FILE = Intelligent_fire_protection_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Intelligent-fire-protection-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Intelligent_fire_protection_2;
+			};
+			name = Debug;
+		};
+		4CCC35C8266766C0001052E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G69WKMC5FC;
+				INFOPLIST_FILE = Intelligent_fire_protection_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Intelligent-fire-protection-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Intelligent_fire_protection_2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCC358C266766BC001052E4 /* Build configuration list for PBXProject "Intelligent_fire_protection_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCC35BE266766C0001052E4 /* Debug */,
+				4CCC35BF266766C0001052E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCC35C0266766C0001052E4 /* Build configuration list for PBXNativeTarget "Intelligent_fire_protection_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCC35C1266766C0001052E4 /* Debug */,
+				4CCC35C2266766C0001052E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCC35C3266766C0001052E4 /* Build configuration list for PBXNativeTarget "Intelligent_fire_protection_2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCC35C4266766C0001052E4 /* Debug */,
+				4CCC35C5266766C0001052E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCC35C6266766C0001052E4 /* Build configuration list for PBXNativeTarget "Intelligent_fire_protection_2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCC35C7266766C0001052E4 /* Debug */,
+				4CCC35C8266766C0001052E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CCC3589266766BC001052E4 /* Project object */;
+}

@@ -1,0 +1,9 @@
+project 'Intelligent_fire_protection_2.xcodeproj'
+platform :ios, '9.0'
+target 'Intelligent_fire_protection_2' do
+pod 'OHMySQL'
+pod 'MQTTClient'
+pod 'MQTTClient/MinL'
+pod 'MQTTClient/ManagerL'
+pod 'MQTTClient/WebsocketL'
+end
